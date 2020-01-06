@@ -5,17 +5,17 @@
   "main": "main.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pminiggio/ajax-content-loader.git"
+    "url": "git+https://github.com/pierreminiggio/ajax-content-loader.git"
   },
   "author": "Pierre MINIGGIO",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pminiggio/ajax-content-loader/issues"
+    "url": "https://github.com/pierreminiggio/ajax-content-loader/issues"
   },
-  "homepage": "https://github.com/pminiggio/ajax-content-loader#readme",
+  "homepage": "https://github.com/pierreminiggio/ajax-content-loader#readme",
   "dependencies": {
-    "add-instance-proto": "github:pminiggio/add-instance-proto",
-    "ajax-as-promise": "github:pminiggio/ajax-as-promise",
+    "add-instance-proto": "github:pierreminiggio/add-instance-proto",
+    "ajax-as-promise": "github:pierreminiggio/ajax-as-promise",
     "jquery": "^3.4.1",
     "sweetalert2": "^8.17.1"
   }

@@ -1,7 +1,7 @@
-let addInstancesProto = require('add-instance-proto')
+let addInstancesProto = require('@pierreminiggio/add-instance-proto')
 
 const $ = require('jquery')
-const Ajax = require('ajax-as-promise')
+const Ajax = require('@pierreminiggio/ajax-as-promise')
 const Swal = require('sweetalert2')
 
 let AjaxContentSingleton = (function () {

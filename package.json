@@ -1,5 +1,5 @@
 {
-  "name": "ajax-content-loader",
+  "name": "@pierreminiggio/ajax-content-loader",
   "version": "1.0.0",
   "description": "Simple Ajax Content Loader",
   "main": "main.js",
@@ -14,9 +14,13 @@
   },
   "homepage": "https://github.com/pierreminiggio/ajax-content-loader#readme",
   "dependencies": {
-    "add-instance-proto": "github:pierreminiggio/add-instance-proto",
-    "ajax-as-promise": "github:pierreminiggio/ajax-as-promise",
+    "@pierreminiggio/add-instance-proto": "github:pierreminiggio/add-instance-proto",
+    "@pierreminiggio/ajax-as-promise": "github:pierreminiggio/ajax-as-promise",
     "jquery": "^3.4.1",
     "sweetalert2": "^8.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

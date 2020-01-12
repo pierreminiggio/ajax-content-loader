@@ -19,7 +19,9 @@ let AjaxContentSingleton = (function () {
                     if (contentUrl !== '' && contentUrl !== undefined) {
                         $(this).data('loaded', '1')
 
-                        singleton.setElementAsLoading(this)
+                        if ($(this).data('loadcontentsilently') !== undefined) {
+                            singleton.setElementAsLoading(this)
+                        }
 
                         Ajax.get(contentUrl, {}, dataType = 'html')
                             .then(data => {

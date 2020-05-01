@@ -16,7 +16,7 @@
   "dependencies": {
     "@pierreminiggio/add-instance-proto": "github:pierreminiggio/add-instance-proto",
     "@pierreminiggio/ajax-as-promise": "github:pierreminiggio/ajax-as-promise",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "sweetalert2": "*"
   },
   "devDependencies": {},
